@@ -22,7 +22,7 @@ def submit_feedback():
 # Function to retrieve and print feedback
 def retrieve_feedback():
     password = input("Enter password: ")
-    correct_password = "your_password"  # Change this to your desired password
+    correct_password = "pass123" 
     if password == correct_password:
         conn = sqlite3.connect('customer_feedback.db')
         c = conn.cursor()
