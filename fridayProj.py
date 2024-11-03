@@ -63,4 +63,12 @@ entry_feedback = tk.Text(root, height=5, width=30)
 entry_feedback.pack()
 
 # Create submit button
-submit_button = tk.Button(root, text="Submit", command=submit)
+submit_button = tk.Button(root, text="Submit", command=submit_feedback)
+submit_button.pack()
+
+# Create retrieve button
+retrieve_button = tk.Button(root, text="Retrieve Data", command=retrieve_feedback)
+retrieve_button.pack()
+
+# Run the application
+root.mainloop()
